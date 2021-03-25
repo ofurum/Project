@@ -1,0 +1,40 @@
+.project-two {
+   margin-top: 25px;
+   
+    .clothing-image-1{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    article{
+        display: flex;
+    }
+
+    .clothing-details{
+        margin-right: 1.5rem;
+        display: flex;
+         flex-direction: column;
+    }
+}
+
+@media (max-width: 648px) {
+.project-two {
+   margin-top: 25px;
+   
+    .clothing-image-1{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    article{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .clothing-details{
+        margin-right: 1.5rem;
+        display: flex;
+         flex-direction: column;
+    }
+}
+}
